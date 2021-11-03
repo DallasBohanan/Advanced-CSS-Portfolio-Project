@@ -1,0 +1,383 @@
+
+
+html{
+width: 100%;
+
+
+}
+
+body{
+margin:0 ;
+padding: 0;
+/* background: darkgrey; */
+width: 100%;
+height: ;
+font-family: Georgia, 'Times New Roman', Times, serif;
+border: 5px dashed green;
+}
+
+
+main{
+    display: block;
+flex-wrap: wrap;
+
+
+}
+
+header h1{
+font-family: cursive;
+font-size: 40px;
+margin-left: 40px;
+
+}
+nav{
+position: relative;
+color: red;
+font-size: 20px;
+width: 100%;
+margin: 0 auto;
+height: 100px;
+display:flex ;
+flex-direction: row;
+left: 800px;
+top: -50px;
+}
+nav ul{
+    justify-content: right;
+
+}
+
+nav li {
+display: inline;
+justify-content: flex-end;
+margin-right:20px;
+right: 0px;
+top: 0px;
+color: black;
+}
+
+a{
+list-style: none;
+text-decoration: none;
+color: black;
+
+}
+
+a:hover{
+
+color:#A5CBC3;
+
+}
+.aboutMe{
+    background-color: white;
+    display: block;
+width: 100vh;
+height: 80vh;
+padding-bottom: 240px;
+}
+
+.aboutImg{
+position: absolute;
+border: solid 1 px black;
+border-radius: 300px;
+box-shadow: 10px 10px 10px #343F3E;
+left: 200px;
+top: 340px;
+}
+
+.aboutMe h1, p{
+position: relative;
+left: 625px;
+font-size: 2.4rem;
+top: 80px;
+}
+
+.aboutMe p{
+
+width: 700px;
+
+
+}
+
+
+
+.myWork{
+    display: flex;
+    flex-direction:row  ;
+    flex-wrap: wrap;
+    flex: 1 1 667px;
+background-color:#505a5b ;
+position: absolute;
+width: 100%;
+height: 150vh;
+}
+
+
+
+/* Start of styling project */
+
+/* .randomCompanies{
+align-items: center;
+top: 1300px;
+} */
+
+.randomCompany1{
+margin-top: 100px;
+margin-left: px;
+margin-right: 40px;
+position:
+border: dotted 14px red;
+border-radius: 5px;
+width: 300px;
+height: 300px;
+box-shadow: inset 0 0 0 0 #5691c8;
+transition: ease-in .8s;
+}
+.randomCompany1:hover{
+width: 310px;
+height: 310px;
+border-radius:5px;
+opacity: 90%;
+transition: ease-out .8s;
+/* box-shadow: inset 310px 0 0 0 black; */
+cursor: auto;
+}
+.randomCompany2{
+margin-right: 40px;
+transition: ease-in .8s;
+}
+.randomCompany2:hover{
+width: 310px;
+height: 310px;
+border-radius:5px;
+opacity: 90%;
+transition: ease-out .8s;
+}
+
+.randomCompany3{
+transition: ease-in .8s;
+
+}
+
+.randomCompany3:hover{
+width: 310px;
+height: 310px;
+border-radius:5px;
+opacity: 90%;
+transition: ease-out .8s;
+}
+
+
+.randomCompany4{
+margin-top: 100px;
+margin-left: 90px;
+margin-right: 40px;
+transition: ease-in .8s;
+}
+
+.randomCompany4:hover{
+width: 310px;
+height: 310px;
+border-radius:5px;
+opacity: 90%;
+transition: ease-out .8s;
+/* box-shadow: inset 310px 0 0 0 black; */
+cursor: auto;
+}
+
+.randomCompany5{
+margin-right: 40px;
+transition: ease-in .8s;
+}
+
+.randomCompany5:hover{
+width: 310px;
+height: 310px;
+border-radius:5px;
+opacity: 90%;
+transition: ease-out .8s;
+/* box-shadow: inset 310px 0 0 0 black; */
+cursor: pointer;
+}
+
+
+.randomCompany6{
+transition: ease-in .8s;
+
+}
+
+.randomCompany6:hover{
+width: 310px;
+height: 310px;
+border-radius:5px;
+opacity: 90%;
+transition: ease-out .8s;
+/* box-shadow: inset 310px 0 0 0 black; */
+cursor: auto;
+}
+
+.contactMe{
+    display: block;
+    width: 100%;
+    height: 40vh;
+    background-color: lavender;
+    margin-top: 150vh;
+}
+
+.Contact_title{
+font-size: 50px;
+margin-left: 400px;
+}
+
+.contactMe form{
+margin-left: 400px;
+
+
+}
+
+@media screen and (max-width:667px ){
+
+    .aboutImg{
+        width: 100%;
+        border-radius: 0px;
+        position: absolute;
+        box-shadow: 10px 10px 10px #343F3E;
+       margin-left: 0px;
+       left: 0px;
+        top: 300px;
+        }
+
+        nav{
+            position: relative;
+            color: red;
+            font-size: 20px;
+            width: 100vh;
+            margin: 0 auto;
+            height: 100px;
+            display:inline-flex ;
+            justify-content: flex-start;
+           left: -10px;
+            top: -20px;
+            }
+
+            a:hover{
+
+                color: black;
+                
+                }
+
+    .aboutMe h1{
+        left: 0px;
+        top: 400px;
+
+    }
+    .aboutMe p{
+display: none;
+
+    }
+
+    .myWork{
+        display: flex;
+        flex-direction:row  ;
+        flex-wrap: wrap;
+        flex: 1 1 667px;
+    background-color:#505a5b ;
+    position: absolute;
+    width: 100%;
+    height: 320vh;
+    }
+    
+    .randomCompany1{
+        background-color: blck;
+        margin-top: 100px;
+        
+        margin-right: 40px;
+       
+       
+        
+        width: 100%;
+        height: 300px;
+       
+        
+        }
+
+        .randomCompany1:hover{
+            width:100%;
+
+        }
+        
+        .randomCompany2{
+            width: 100%;
+        margin-right: 40px;
+        transition: ease-in .8s;
+        }
+        .randomCompany2:hover{
+
+            width: 100%;
+
+        }
+       
+        
+        .randomCompany3{
+        transition: ease-in .8s;
+        width: 100%;
+        
+        }
+        .randomCompany3:hover{
+
+            width: 100%;
+
+        }
+        
+        
+        .randomCompany4{
+        margin-top: 100px;
+        margin-left: 0px;
+        width: 100%;
+        
+        }
+        
+        .randomCompany4:hover{
+
+            width: 100%;
+
+        }
+        
+        .randomCompany5{
+        margin-right: 40px;
+        transition: ease-in .8s;
+        width: 100%;
+
+        }
+        
+        
+        .randomCompany5:hover{
+
+            width: 100%;
+
+        }
+        
+        .randomCompany6{
+        transition: ease-in .8s;
+        width: 100%;
+        }
+        
+        .randomCompany6:hover{
+
+            width: 100%;
+
+        }
+
+}
+
+
+
+@media screen an (min-width:960px){
+
+
+
+
+
+
+
+}
