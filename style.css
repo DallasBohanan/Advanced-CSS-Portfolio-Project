@@ -120,10 +120,14 @@ height: 150vh;
 align-items: center;
 top: 1300px;
 } */
+.big_item{
 
-.randomCompany1{
+    flex:2 0 0;
+    flex-grow: 2 0 0;
+}
+.project1{
 margin-top: 100px;
-margin-left: px;
+margin-left: px;~
 margin-right: 40px;
 position:
 border: dotted 14px red;
@@ -133,7 +137,7 @@ height: 300px;
 box-shadow: inset 0 0 0 0 #5691c8;
 transition: ease-in .8s;
 }
-.randomCompany1:hover{
+.project1:hover{
 width: 310px;
 height: 310px;
 border-radius:5px;
@@ -142,11 +146,11 @@ transition: ease-out .8s;
 /* box-shadow: inset 310px 0 0 0 black; */
 cursor: auto;
 }
-.randomCompany2{
+.project2{
 margin-right: 40px;
 transition: ease-in .8s;
 }
-.randomCompany2:hover{
+.project2:hover{
 width: 310px;
 height: 310px;
 border-radius:5px;
@@ -154,12 +158,12 @@ opacity: 90%;
 transition: ease-out .8s;
 }
 
-.randomCompany3{
+.project3, .project6{
 transition: ease-in .8s;
 
 }
 
-.randomCompany3:hover{
+.project3:hover{
 width: 310px;
 height: 310px;
 border-radius:5px;
@@ -168,14 +172,14 @@ transition: ease-out .8s;
 }
 
 
-.randomCompany4{
+.project4{
 margin-top: 100px;
 margin-left: 90px;
 margin-right: 40px;
 transition: ease-in .8s;
 }
 
-.randomCompany4:hover{
+.project4:hover{
 width: 310px;
 height: 310px;
 border-radius:5px;
@@ -185,12 +189,12 @@ transition: ease-out .8s;
 cursor: auto;
 }
 
-.randomCompany5{
+.project5{
 margin-right: 40px;
 transition: ease-in .8s;
 }
 
-.randomCompany5:hover{
+.project5:hover{
 width: 310px;
 height: 310px;
 border-radius:5px;
@@ -201,12 +205,12 @@ cursor: pointer;
 }
 
 
-.randomCompany6{
+.project6{
 transition: ease-in .8s;
 
 }
 
-.randomCompany6:hover{
+.project6:hover{
 width: 310px;
 height: 310px;
 border-radius:5px;
@@ -287,7 +291,7 @@ display: none;
     height: 320vh;
     }
     
-    .randomCompany1{
+    .project1{
         background-color: blck;
         margin-top: 100px;
         
@@ -301,49 +305,49 @@ display: none;
         
         }
 
-        .randomCompany1:hover{
+        .project1:hover{
             width:100%;
 
         }
         
-        .randomCompany2{
+        .project2{
             width: 100%;
         margin-right: 40px;
         transition: ease-in .8s;
         }
-        .randomCompany2:hover{
+        .project2:hover{
 
             width: 100%;
 
         }
        
         
-        .randomCompany3{
+        .project3{
         transition: ease-in .8s;
         width: 100%;
         
         }
-        .randomCompany3:hover{
+        .project3:hover{
 
             width: 100%;
 
         }
         
         
-        .randomCompany4{
+        .ranproject4{
         margin-top: 100px;
         margin-left: 0px;
         width: 100%;
         
         }
         
-        .randomCompany4:hover{
+        .project4:hover{
 
             width: 100%;
 
         }
         
-        .randomCompany5{
+        .project5{
         margin-right: 40px;
         transition: ease-in .8s;
         width: 100%;
@@ -351,18 +355,18 @@ display: none;
         }
         
         
-        .randomCompany5:hover{
+        .project5:hover{
 
             width: 100%;
 
         }
         
-        .randomCompany6{
+        .project6{
         transition: ease-in .8s;
         width: 100%;
         }
         
-        .randomCompany6:hover{
+        .project6:hover{
 
             width: 100%;
 
@@ -372,7 +376,7 @@ display: none;
 
 
 
-@media screen an (min-width:960px){
+@media screen and (min-width:960px){
 
 
 
